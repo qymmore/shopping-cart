@@ -1,20 +1,28 @@
 import React from 'react';
+import tea from '../assets/images/tea-64.png';
+import cart from '../assets/images/cart-11-64.png';
+// import image1 from '../assets/images/pexels-4 1.png';
 
 function Nav() {
     return(
         <div className='nav-container'>
+            {/* <img src={image1} alt="background"></img> */}
 
             <div className='nav-items'>
-                <div className='title'>
-                    <p>Store Name</p>
+                <img src={tea} alt="tea"></img>
+
+                <div className='nav-list'>
+                    <ul>
+                        <li>Home</li>
+                        <li>Shop</li>
+                        <li>Contact</li>
+                    </ul>
                 </div>
 
-                <ul className='nav-list'>
-                    <li><a href='http://localhost:3002/shopping-cart/'>Home</a></li>
-                    <li><a href='http://localhost:3002/shopping-cart/products'> Products</a></li>
-                    <li><a href='http://localhost:3002/shopping-cart/contact'>Contact</a></li>
-                    <li>Your Cart</li>
-                </ul>
+                <img src={cart} alt="cart"></img>
+
+                <div className='ellipse'></div>
+        
             </div>
         </div>
     )
