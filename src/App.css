@@ -1,23 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
-
-* {
-    box-sizing: border-box;
+html {
+    height: 100%;
 }
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 
 body {
     padding: 0;
-    margin: 0;
-    /* background-image: url("./assets/images/blob-scene-haikei.svg");
-    background-repeat: no-repeat;
-    background-size: cover; */
+    font-family: 'Luckiest Guy';
 }
 
 /* NAV ELEMENTS */
 
+.nav-container img {
+    position: absolute;
+    width: 85.89px;
+    height: 83.59px;
+    left: 40px;
+    top: 19px;
+}
+
+.nav-items ul {
+    position: absolute;
+    cursor: pointer;
+
+    display: flex;
+    left: 1200px;
+    top: 20px;
+    gap: 30px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover, .shopping-cart:hover {
+    transform: scale(1.1);
+}
+
+.shopping-cart {
+    position: absolute;
+    cursor: pointer;
+    width: 200px;
+    height: 55px;
+    left: 1530px;
+    top: 40px;
+
+    background: #FBAE3C;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-cart img {
+    transform: scale(0.3);
+    margin-left: -50px;
+    margin-top: -40px;
+}
+
+.shopping-cart>span {
+    margin-left: 20px;
+
+    font-size: 32px;
+    line-height: 32px;
+}
+
 /* HOME ELEMENTS */
 
 body.blobs-active {
-    background-image: url("./assets/images/blob-scene-haikei.svg");
+    background: url("./assets/images/blob-scene-haikei.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
