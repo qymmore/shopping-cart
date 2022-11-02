@@ -1,17 +1,14 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.7469e72b.css",
-    "main.js": "/shopping-cart/static/js/main.be94a02f.js",
-    "static/media/pexels-4 1.png": "/shopping-cart/static/media/pexels-4 1.decef1c25f44fa3894fe.png",
-    "static/media/black-tea-holder.png": "/shopping-cart/static/media/black-tea-holder.af4f09f2a78cbc0bc472.png",
-    "static/media/green-tea-holder.png": "/shopping-cart/static/media/green-tea-holder.6840a26fb145290d5a4c.png",
-    "static/media/white-tea-holder.png": "/shopping-cart/static/media/white-tea-holder.f8dbd13c8d216e8b3e9f.png",
+    "main.css": "/shopping-cart/static/css/main.083b2e87.css",
+    "main.js": "/shopping-cart/static/js/main.6fbbd9cd.js",
+    "static/media/blob-scene-haikei.svg": "/shopping-cart/static/media/blob-scene-haikei.70e785d07658d72d1271.svg",
     "index.html": "/shopping-cart/index.html",
-    "main.7469e72b.css.map": "/shopping-cart/static/css/main.7469e72b.css.map",
-    "main.be94a02f.js.map": "/shopping-cart/static/js/main.be94a02f.js.map"
+    "main.083b2e87.css.map": "/shopping-cart/static/css/main.083b2e87.css.map",
+    "main.6fbbd9cd.js.map": "/shopping-cart/static/js/main.6fbbd9cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.7469e72b.css",
-    "static/js/main.be94a02f.js"
+    "static/css/main.083b2e87.css",
+    "static/js/main.6fbbd9cd.js"
   ]
 }
