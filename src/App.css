@@ -45,7 +45,7 @@ li {
     cursor: pointer;
 }
 
-li:hover, .shopping-cart:hover {
+li:hover, .shopping-cart:hover, .shop-btn:hover {
     transform: scale(1.1);
 }
 
@@ -85,3 +85,52 @@ body.blobs-active {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.welcome-text {
+    position: absolute;
+    width: 800px;
+    height: 145px;
+    left: 500px;
+    top: 380px;
+
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.shop-btn {
+    width: 257px;
+    height: 55px;
+    margin-left: 750px;
+    margin-top: 530px;
+
+    background: #FBAE3C;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Luckiest Guy';
+    font-size: 32px;
+
+    text-align: center;
+}
+
+/* FOOTER ELEMENTS */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    left: 790px;
+    top: 900px;
+
+    font-size: 20px;
+    line-height: 20px;
+
+    text-align: center;
+}
+
+
