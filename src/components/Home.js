@@ -12,9 +12,9 @@ function Home() {
 
     return(
         <div className='home-container'>
-            <span className='welcome-text'>coolest eggsperience you will ever have</span>
+            {/* <span className='welcome-text'>coolest eggsperience you will ever have</span>
 
-            <button type='submit' className='shop-btn'>shop now</button>
+            <button type='submit' className='shop-btn'>shop now</button> */}
         </div>
     )
 }

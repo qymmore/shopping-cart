@@ -1,42 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
-html {
-    height: 100%;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-#root {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-
 body {
-    padding: 0;
-    font-family: 'Luckiest Guy';
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.home-container {
+    background: url("./assets/images/blob-scene-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    background-position: center;
 }
 
 /* NAV ELEMENTS */
 
+.nav-container {
+    padding-bottom: 30px;
+}
+
 .nav-container img {
-    position: absolute;
-    width: 85.89px;
-    height: 83.59px;
+    position: relative;
+    transform: scale(0.7);
     left: 40px;
-    top: 19px;
 }
 
 .nav-items ul {
-    position: absolute;
+    position: relative;
     cursor: pointer;
 
     display: flex;
-    left: 1200px;
-    top: 20px;
     gap: 30px;
+
+    margin-top: -60px;
+    margin-left: 1300px;
+    /* padding-bottom: 30px; */
     
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 25px;
     line-height: 32px;
 }
 
@@ -49,13 +57,19 @@ li:hover, .shopping-cart:hover, .shop-btn:hover {
     transform: scale(1.1);
 }
 
+.nav-container img:hover {
+    transform: scale(0.9);
+}
+
 .shopping-cart {
-    position: absolute;
+    position: relative;
     cursor: pointer;
-    width: 200px;
-    height: 55px;
-    left: 1530px;
-    top: 40px;
+    width: 150px;
+    height: 45px;
+
+    margin-top: -40px;
+    margin-left: 1550px;
+    gap: 30px;
 
     background: #FBAE3C;
     border-radius: 30px;
@@ -66,25 +80,26 @@ li:hover, .shopping-cart:hover, .shop-btn:hover {
 }
 
 .shopping-cart img {
-    transform: scale(0.3);
+    transform: scale(0.8);
     margin-left: -50px;
-    margin-top: -40px;
+    margin-top: -10px;
 }
 
 .shopping-cart>span {
     margin-left: 20px;
 
-    font-size: 32px;
+    font-size: 23px;
     line-height: 32px;
 }
 
 /* HOME ELEMENTS */
 
-body.blobs-active {
+/* body.blobs-active {
     background: url("./assets/images/blob-scene-haikei.svg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+    width: 100%;
+} */
 
 .welcome-text {
     position: absolute;
@@ -118,19 +133,11 @@ body.blobs-active {
 
 /* FOOTER ELEMENTS */
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: absolute;
-    width: 250px;
-    height: 20px;
-    left: 790px;
-    top: 900px;
-
-    font-size: 20px;
-    line-height: 20px;
-
+    position: fixed;
+    left: 0;
+	bottom: 0;
+	height: 30px;
+	width: 100%;
     text-align: center;
 }
-
 

@@ -8,7 +8,7 @@ function Nav() {
 
     return(
         <div className='nav-container'>
-            <img src={logo} alt=""></img>
+            <img src={logo} alt="logo"></img>
 
             <div className='nav-items'>
                 <ul>
