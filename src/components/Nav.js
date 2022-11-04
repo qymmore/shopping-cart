@@ -7,7 +7,7 @@ function Nav() {
     const [cartItems, setCartItems] = useState(0);
 
     return(
-        <div className='nav-container'>
+        <header>
             <img src={logo} alt="logo"></img>
 
             <div className='nav-items'>
@@ -21,7 +21,7 @@ function Nav() {
                     <span>Cart: {cartItems}</span>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 
