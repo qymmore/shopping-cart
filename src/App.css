@@ -28,9 +28,14 @@ body.blobs-active {
 
 /* NAV ELEMENTS */
 
-li {
+li, a {
     list-style: none;
+    text-decoration: none;
     cursor: pointer;
+}
+
+a:visited {
+    color: black;
 }
 
 li:hover, .shopping-cart:hover, .shop-btn:hover {
@@ -138,6 +143,34 @@ header ul {
 
 .btn.btn-shop:hover, .btn.btn-shop:focus {
     transform: scale(1.1);
+}
+
+/* PRODUCTS ELEMENTS */
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 250px));
+    place-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.items img {
+    border-radius: 1rem;
+    transform: scale(0.8);
+    width: 220px;
+    height: 180px;
+}
+
+.items img:hover, .items img:focus {
+    transform: scale(0.9);
+}
+
+.items {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    background-color: #FBAE3C;
+    border-radius: 10px;
 }
 
 /* FOOTER ELEMENTS */
