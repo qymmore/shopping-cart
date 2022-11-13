@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.9275e2a5.css",
-    "main.js": "/shopping-cart/static/js/main.08051d3d.js",
+    "main.css": "/shopping-cart/static/css/main.e2b5d9f8.css",
+    "main.js": "/shopping-cart/static/js/main.6362eeb9.js",
+    "static/media/scramble.jpeg": "/shopping-cart/static/media/scramble.908a73185b2be7025d77.jpeg",
+    "static/media/frittata.jpeg": "/shopping-cart/static/media/frittata.a0ffc695d975e9d4b564.jpeg",
+    "static/media/egg-benedict.jpeg": "/shopping-cart/static/media/egg-benedict.58f653b8fac599264d4c.jpeg",
+    "static/media/egg-masala.jpeg": "/shopping-cart/static/media/egg-masala.a6751fde05d24fcd03e5.jpeg",
+    "static/media/devil-egg.jpeg": "/shopping-cart/static/media/devil-egg.0b0269fb1284a33adc11.jpeg",
+    "static/media/scotch-eggs.jpeg": "/shopping-cart/static/media/scotch-eggs.3bf4ab6af154cd964dab.jpeg",
     "static/media/fried-egg 1.svg": "/shopping-cart/static/media/fried-egg 1.6f0d148e35e329816a2fb5cc3523d363.svg",
     "static/media/blob-scene-haikei.svg": "/shopping-cart/static/media/blob-scene-haikei.70e785d07658d72d1271.svg",
     "index.html": "/shopping-cart/index.html",
-    "main.9275e2a5.css.map": "/shopping-cart/static/css/main.9275e2a5.css.map",
-    "main.08051d3d.js.map": "/shopping-cart/static/js/main.08051d3d.js.map"
+    "main.e2b5d9f8.css.map": "/shopping-cart/static/css/main.e2b5d9f8.css.map",
+    "main.6362eeb9.js.map": "/shopping-cart/static/js/main.6362eeb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.9275e2a5.css",
-    "static/js/main.08051d3d.js"
+    "static/css/main.e2b5d9f8.css",
+    "static/js/main.6362eeb9.js"
   ]
 }
